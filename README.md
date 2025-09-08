@@ -52,7 +52,7 @@ Notes about gpt4all and models
 Running the app
 ---------------
 1. From the workspace root run (while virtualenv active):
-   - python "OTHER VERSION\VER2.py"
+   - python "TOO_AI_Assistant.py"
 
 2. In the GUI:
    - Select a model from the dropdown and click "Load Model".
@@ -75,3 +75,4 @@ Authors
 -------
 - YEHUDA HELLER
 - MOSHE NAMDAR
+
