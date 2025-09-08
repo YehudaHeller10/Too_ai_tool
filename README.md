@@ -13,11 +13,10 @@ Model response (AI_ans.png):
 
 ![Model answer](AI_ans.png)
 
-If the images do not render in your viewer, ensure the files remain in the "OTHER VERSION/" folder next to the codebase.
 
 Project layout
 --------------
-- TOO_AI_Assistant.py    -- Main PySide6 GUI application (in OTHER VERSION/)
+- TOO_AI_Assistant.py    -- Main PySide6 GUI application 
 - models/                -- Place your .gguf models here (examples included in repo)
 - requirements.txt       -- Python dependencies
 
@@ -75,4 +74,5 @@ Authors
 -------
 - YEHUDA HELLER
 - MOSHE NAMDAR
+
 
