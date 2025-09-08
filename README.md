@@ -1,28 +1,23 @@
 TOO Language Chat Assistant (local GGUF models)
 ==============================================
 
-Authors
--------
-- YEHUDA HELLER
-- MOSHE NAMDAR
-
 Screenshots
 -----------
 Below are example screenshots from the app showing a user typing a question and the model's streamed response.
 
 User typing a question (user_req.png):
 
-![User typing question](OTHER%20VERSION/user_req.png)
+![User typing question](user_req.png)
 
 Model response (AI_ans.png):
 
-![Model answer](OTHER%20VERSION/AI_ans.png)
+![Model answer](AI_ans.png)
 
 If the images do not render in your viewer, ensure the files remain in the "OTHER VERSION/" folder next to the codebase.
 
 Project layout
 --------------
-- VER2.py                -- Main PySide6 GUI application (in OTHER VERSION/)
+- TOO_AI_Assistant.py    -- Main PySide6 GUI application (in OTHER VERSION/)
 - models/                -- Place your .gguf models here (examples included in repo)
 - requirements.txt       -- Python dependencies
 
@@ -73,9 +68,10 @@ Troubleshooting
 
 Privacy & License
 -----------------
-- This repository does not send user chat data anywhere by default. The optional marketplace fetch uses requests to read a public webpage.
-- Use and distribute under the repository's license (no license file provided here).
+- Free for all uses
 
-Contact / Notes
-----------------
-- This is a developer-focused demo. For production use, add robust error handling, model management, and security considerations.
+
+Authors
+-------
+- YEHUDA HELLER
+- MOSHE NAMDAR
